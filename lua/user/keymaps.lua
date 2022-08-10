@@ -78,3 +78,9 @@ keymap("n", "<leader>dr", "<cmd>lua require'dap'.repl.toggle()<cr>", opts)
 keymap("n", "<leader>dl", "<cmd>lua require'dap'.run_last()<cr>", opts)
 keymap("n", "<leader>du", "<cmd>lua require'dapui'.toggle()<cr>", opts)
 keymap("n", "<leader>dt", "<cmd>lua require'dap'.terminate()<cr>", opts)
+
+-- Miscellaneous
+keymap("n", "<leader>q", "<cmd>wq!<CR>", opts)
+keymap("n", "<leader>Q", "<cmd>q!<CR>", opts)
+keymap("n", "<leader>w", "<cmd>w<CR>", opts)
+keymap("n", "<leader>c", "<cmd>Bdelete!<CR>", opts)
